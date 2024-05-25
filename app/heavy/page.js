@@ -7,7 +7,7 @@ export default function Heavy() {
             <h1>Heavy page</h1>
             <Suspense fallback={<h1>Loading Post....</h1>}>
                 <Posts />
-                </Suspense>
+            </Suspense>
         </div>
     )
 }
