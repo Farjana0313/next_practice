@@ -1,4 +1,5 @@
 import wait from "@/lib/mian";
+
 export default async function AssignmentsPage() {
     await wait(3000);
     return (

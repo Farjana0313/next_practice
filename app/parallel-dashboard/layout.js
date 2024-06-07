@@ -1,10 +1,10 @@
-export default function ParallelDashboardLayout({
+export default function DashboardLayout({
     children,
     assignments,
     quiz,
     notifications,
 }) {
-    const isLoggedIn = false;
+    const isLoggedIn = true;
 
     return (
         <>
