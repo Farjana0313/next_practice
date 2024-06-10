@@ -1,7 +1,13 @@
-import React from 'react'
+import Assignments from "../components/Assignments";
+import Notifications from "../components/Notifications";
+import Quiz from "../components/Quiz";
 
 export default function DashboardPage() {
-  return (
-    <div>DashboardPage</div>
-  )
+    return (
+        <>
+            <Assignments />
+            <Notifications />
+            <Quiz />
+        </>
+    );
 }
