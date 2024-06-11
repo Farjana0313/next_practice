@@ -30,7 +30,7 @@ export function middleware(request) {
   const pathNameIsMissingLocale = locales.every(
     (locale) =>
       !pathname.startsWith(`/${locale}`) &&
-      !pathname.startsWith(`/${locale}/`)
+      !pathname.startsWith(`/${locale}/`) 
   );
   if (pathNameIsMissingLocale) {
     // detect user's preference & redirect with a locale with a path en:/en/about
