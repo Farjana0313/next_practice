@@ -3,7 +3,7 @@ import { cookies } from "next/headers";
 import Image from "next/image";
 
 export default async function Home() {
-  const theme = cookies().get("theme");
+  // const theme = cookies().get("theme");
   const joke = await getJoke();
   console.log('joke', joke);
   return (
